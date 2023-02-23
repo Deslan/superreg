@@ -18,11 +18,11 @@ public class UserServiceImplUnitTest {
     @Test
     void testTheIsValidNameMethod() {
         assert (userService.nameIsValid("") == false);
-        assert (userService.nameIsValid("Ayesha Matwadia") == true);
-        assert (userService.nameIsValid("Ayesha") == true);
-        assert (userService.nameIsValid("@Ayesha Matwadia") == false);
-        assert (userService.nameIsValid("Ayesha1Matwadia") == false);
-        assert (userService.nameIsValid("Ayesha+Matwadia") == false);
+        assert (userService.nameIsValid("Deslan Pillay") == true);
+        assert (userService.nameIsValid("Deslan") == true);
+        assert (userService.nameIsValid("@Deslan Pillay") == false);
+        assert (userService.nameIsValid("Deslan1Pillay") == false);
+        assert (userService.nameIsValid("Deslan+Pillay") == false);
     }
 
     @Test
